@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Becoming a Software Engineer in Japan`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Zach Stone`,
+      summary: `An American fluent in Japanese who is learning web development.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A blog detailing my journey from English teacher to software engineer.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `zachinjapan888`,
     },
   },
   plugins: [
