@@ -5,7 +5,7 @@ module.exports = {
       name: `Zach Stone`,
       summary: `An American fluent in Japanese who is learning web development.`,
     },
-    description: `A blog detailing my journey from English teacher to software engineer.`,
+    description: `A blog detailing Zach Stone's journey from English teacher to software engineer.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
       twitter: `zachinjapan888`,
