@@ -18,7 +18,7 @@ This returned function returns the sum of 'x' and 'y' when run.
 */
 ```
 
-<div style="width:100%;height:0;padding-bottom:105%;position:relative;"><iframe src="https://giphy.com/embed/ji6zzUZwNIuLS" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/no-ji6zzUZwNIuLS">via GIPHY</a></p>
+<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/FcuiZUneg1YRAu1lH2" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/sunnyfxx-always-sunny-iasip-its-FcuiZUneg1YRAu1lH2">via GIPHY</a></p>
 
 ### Did you try to solve it? Here is one possible answer
 
