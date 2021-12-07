@@ -36,7 +36,7 @@ const sum = addTwo(3) // inputs y as 3
 //sum = 5
 ```
 
-## That my friend is a higher order function
+## That my friend, is a higher order function.
 
 [Elqouent Javascript Chapter 5](https://eloquentjavascript.net/05_higher_order.html "EJS")
 
@@ -70,7 +70,7 @@ because they are HIGHER ORDER FUNCTIONS!!
 
 <div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/51UpqfGlFF0hjHzecq" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/latelateshow-shocked-wake-up-james-corden-51UpqfGlFF0hjHzecq">via GIPHY</a></p>
 
-### My favortite array method
+### My favorite array method
 
 ##### Array.prototype.map()
 
