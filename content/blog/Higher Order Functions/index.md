@@ -20,7 +20,7 @@ This returned function returns the sum of 'x' and 'y' when run.
 
 <div style="width:100%;height:0;padding-bottom:105%;position:relative;"><iframe src="https://giphy.com/embed/ji6zzUZwNIuLS" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/no-ji6zzUZwNIuLS">via GIPHY</a></p>
 
-### Did you try to solve it? Here is one possible answer;
+### Did you try to solve it? Here is one possible answer
 
 ```js
 function add(x) {
@@ -44,7 +44,7 @@ const sum = addTwo(3) // inputs y as 3
     either by taking them as arguments or
     by returning them, are called higher-order functions.
 
-The example above is an example of returning a function and having returned funccion inherit the outer scope function's variable
+The example above is an example of returning a function that inherits the outer scope's function's variable
 
 Here is an example of using a function as an input
 
@@ -65,8 +65,8 @@ console.log(multiply(add(3, 7), 10)) // 100
 Not too scary after all.
 
 You might have noticed that there are a few Array Methods that take functions as inputs.... well....
-that's
-cause they are HIGHER ORDER FUNCTIONS!!
+that's.....
+because they are HIGHER ORDER FUNCTIONS!!
 
 <div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/51UpqfGlFF0hjHzecq" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/latelateshow-shocked-wake-up-james-corden-51UpqfGlFF0hjHzecq">via GIPHY</a></p>
 
