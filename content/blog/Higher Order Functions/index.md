@@ -97,6 +97,6 @@ Cool right?
 
 Did you enjoy this article? Or did I get something wrong?
 
-Feel free to contact me using my [website](https://zstone.dev "zach's website");
+Feel free to contact me using my [website](https://zstone.dev "zach's website")
 
 Have a fantastic day!
