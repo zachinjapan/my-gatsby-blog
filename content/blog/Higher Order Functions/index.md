@@ -1,7 +1,7 @@
 ---
 title: Higher Order Functions
 date: "2021-12-07"
-description: "Learn the basics about higher order functions and what they are used for"
+description: "Learn the basics about higher order functions"
 ---
 
 ## I was recently confused by this simple question.
@@ -44,7 +44,7 @@ const sum = addTwo(3) // inputs y as 3
     either by taking them as arguments or
     by returning them, are called higher-order functions.
 
-The example above is an example of returning a function that inherits the outer scope's function's variable
+The code above is an example of returning a function that inherits the outer scope's function's variable
 
 Here is an example of using a function as an input
 
