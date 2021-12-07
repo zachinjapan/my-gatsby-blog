@@ -62,11 +62,11 @@ const multiply = (num, multiplier) => {
 console.log(multiply(add(3, 7), 10)) // 100
 ```
 
-Hope that helps!
+Not too scary after all.
 
 You might have noticed that there are a few Array Methods that take functions as inputs.... well....
 that's
-cause they are higher order functions!
+cause they are HIGHER ORDER FUNCTIONS!!
 
 <div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/51UpqfGlFF0hjHzecq" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/latelateshow-shocked-wake-up-james-corden-51UpqfGlFF0hjHzecq">via GIPHY</a></p>
 
