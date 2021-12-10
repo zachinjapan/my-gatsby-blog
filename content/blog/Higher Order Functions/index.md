@@ -65,10 +65,12 @@ console.log(multiply(add(3, 7), 10)) // 100
 Not too scary after all.
 
 You might have noticed that there are a few Array Methods that take functions as inputs.... well....
-that's.....
-because they are HIGHER ORDER FUNCTIONS!!
+that.....
+makes them HIGHER ORDER FUNCTIONS!!
 
-<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/51UpqfGlFF0hjHzecq" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/latelateshow-shocked-wake-up-james-corden-51UpqfGlFF0hjHzecq">via GIPHY</a></p>
+<br/>
+
+<div style="width:100%;height:0;padding-bottom:60%;position:relative;"><iframe src="https://giphy.com/embed/XR9Dp54ZC4dji" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/mrw-thanks-server-XR9Dp54ZC4dji">via GIPHY</a></p>
 
 ### My favorite array method
 
