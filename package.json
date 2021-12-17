@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "Zach in Japan",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "My journey from English teacher to software engineer",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Zach Stone",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
