@@ -31,29 +31,25 @@ const Bio = () => {
   const social = data.site.siteMetadata?.social
 
   return (
-    <div className="bio">
-      <StaticImage
-        className="bio-avatar"
-        layout="fixed"
-        formats={["auto", "webp", "avif"]}
-        src="../images/profile-pic.jpeg"
-        width={50}
-        height={50}
-        quality={95}
-        alt="Profile picture"
-      />
-      {author?.name && (
-        <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
-          {` `}
-          follow him on{" "}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            Twitter{" "}
-          </a>{" "}
-          or see his work at <a href="https://zstone.dev">ZStone.dev</a>
-        </p>
-      )}
-    </div>
+    <>
+      <div className="bio">
+        <StaticImage
+          className="bio-avatar"
+          layout="fixed"
+          formats={["auto", "webp", "avif"]}
+          src="../images/profile-pic.jpeg"
+          width={50}
+          height={50}
+          quality={95}
+          alt="Profile picture"
+        />
+        {author?.name && (
+          <p>
+            Written by <strong>{author.name}</strong> {author?.summary || null}
+          </p>
+        )}
+      </div>
+    </>
   )
 }
 

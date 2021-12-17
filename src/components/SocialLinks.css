@@ -1,0 +1,17 @@
+.social-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .social-links {
+    width: 100%;
+  }
+}
+
+.social-link-img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}

@@ -2,6 +2,7 @@
 title: Higher Order Functions
 date: "2021-12-07"
 description: "Learn the basics about higher order functions"
+tags: ["programming", "higher-order-functions"]
 ---
 
 ## I was recently confused by this simple question.
