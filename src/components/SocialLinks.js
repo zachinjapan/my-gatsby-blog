@@ -38,7 +38,7 @@ const SocialLinks = () => {
           <AiFillTwitterCircle className="social-link-img" />
         </a>
         <a
-          href="https:zstone.dev"
+          href="https://zstone.dev"
           target="_blank"
           rel="noopener noreferrer"
           className="social-link"
