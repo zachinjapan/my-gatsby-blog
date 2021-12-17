@@ -3,7 +3,7 @@ module.exports = {
     title: `Zach in Japan`,
     author: {
       name: `Zach Stone`,
-      summary: `My journey from English teacher to software engineer.`,
+      summary: `Learn about his journey from English teacher to software engineer in Japan.`,
     },
     description: `A blog detailing Zach Stone's journey from English teacher to software engineer.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
