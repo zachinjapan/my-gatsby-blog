@@ -1,6 +1,6 @@
 ---
 title: How I Studied For The Bootcamp Coding Interview
-date: "2021-21-27T22:12:03.284Z"
+date: "2021-21-27"
 description: "How I Studied For The Bootcamp Coding Interview"
 ---
 
@@ -45,7 +45,7 @@ I completed the entire intro to JS course about one unit per day (pro is free fo
 
 I completed the entire Full stack free bootcamp prep course. I found the videos great and completed ~all~ ... ~most~ ... some of the example problems.
 
-I did 5+ codewars problems everyday at level 7/8
+I did 2-3 codewars problems everyday at level 7/8
 
 and...
 
