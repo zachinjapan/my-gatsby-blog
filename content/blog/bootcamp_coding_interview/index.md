@@ -12,9 +12,9 @@ description: "How I Studied For The Bootcamp Coding Interview"
 
 ```js
 const zach = {
-lotsOfTime: false
-haveExtraMoney: false
-studyingToGetIntoACodingBootcamp: true
+  lotsOfTime: false,
+  haveExtraMoney: false,
+  studyingToGetIntoACodingBootcamp: true,
 }
 ```
 
