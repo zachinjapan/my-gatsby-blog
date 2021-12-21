@@ -1,6 +1,6 @@
 ---
 title: How I Studied For The Coding Bootcamp Technical Interview
-date: "2021-12-27"
+date: "2021-12-20"
 description: "How I Studied For The Bootcamp Coding Interview"
 ---
 
