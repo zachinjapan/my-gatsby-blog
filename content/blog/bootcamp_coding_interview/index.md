@@ -1,5 +1,5 @@
 ---
-title: How I Studied For The Bootcamp Coding Interview
+title: How I Studied For The Coding Bootcamp Technical Interview
 date: "2021-21-27"
 description: "How I Studied For The Bootcamp Coding Interview"
 ---
