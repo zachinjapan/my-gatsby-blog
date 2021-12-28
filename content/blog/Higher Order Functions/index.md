@@ -50,17 +50,14 @@ The code above is an example of returning a function that inherits the outer sco
 Here is an example of using a function as an input
 
 ```js
-const add = (num1, num2) => {
-  return num1 + num2
-}
+const greetPerson = (name, greetingBuilder) =>
+  console.log(greetingBuilder(name))
 
-const multiply = (num, multiplier) => {
-  return num * multiplier
-}
+const howsItGoing = name => `${name}! How's it going?`
+const hello = name => `Hello ${name}`
 
-// example
-
-console.log(multiply(add(3, 7), 10)) // 100
+greetPerson("Jon", howsItGoing) // Jon! Hows'it going?
+greetPerson("Fred", hello) // Hello Fred
 ```
 
 Not too scary after all.
