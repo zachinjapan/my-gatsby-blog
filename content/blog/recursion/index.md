@@ -21,13 +21,13 @@ On my journey to becoming a web developer in Japan, I have found two concepts di
 
 > Recursion is when the function uses itself in a loop until some test, defined within itself, is met. - Zach Stone
 
-## Lets look at an example. The first answer will be without recursion.
+## Lets look at an example.
 
 <br>
 
 Define a function that takes an input number. The program console logs the number and every subsequent number reducing by 1 each time. It does this until it reaches 0. When the function reaches 0, it should console log "I'm finished"
 
-## without recursion
+## without recursion (iteratively)
 
 <br>
 
@@ -46,7 +46,7 @@ countDown(20); // 20 , 19, 18, 17, 16, 15 ,14 ,13 ,12 ,11, 10, 9, 8, 7, 6, 5, 4,
 
 ```
 
-## with recursion
+## with recursion (recursively)
 
 <br>
 
@@ -83,6 +83,8 @@ countDown(20); // 20 , 19, 18, 17, 16, 15 ,14 ,13 ,12 ,11, 10, 9, 8, 7, 6, 5, 4,
 The function calls itself over and over, reducing by 1 each time. When the base case is met, it console logs "I'm finished" and ends.
 
 ## Here are some resources to learn more
+
+- [Recursion in 100 Seconds <3](https://www.youtube.com/watch?v=rf60MejMz3E)
 - [A great intro to recursion by Colte Steele](https://www.youtube.com/watch?v=lMBVwYrmFZQ)
 - [Codewars playlist of recursion problems](https://www.codewars.com/collections/recursion-1)
 - [freeCodeCamp article](https://www.freecodecamp.org/news/understanding-recursion-in-programming/)
