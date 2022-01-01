@@ -1,5 +1,5 @@
 ---
-title: Recursion
+title: An Introduction to Recursion
 date: "2022-01-01"
 description: "Learn the basics about recursion"
 tags: ["programming", "recursion"]
