@@ -83,7 +83,7 @@ countDown(20); // 20 , 19, 18, 17, 16, 15 ,14 ,13 ,12 ,11, 10, 9, 8, 7, 6, 5, 4,
 The function calls itself over and over, reducing by 1 each time. When the base case is met, it console logs "I'm finished" and ends.
 
 ## Here are some resources to learn more
-
+- [A great intro to recursion by Colte Steele](https://www.youtube.com/watch?v=lMBVwYrmFZQ)
 - [Codewars playlist of recursion problems](https://www.codewars.com/collections/recursion-1)
 - [freeCodeCamp article](https://www.freecodecamp.org/news/understanding-recursion-in-programming/)
 - [freeCodeCamp YouTube vid](https://www.youtube.com/watch?v=IJDJ0kBx2LM)
