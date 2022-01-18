@@ -1,5 +1,5 @@
 ---
-title: This.Concept = important
+title: this.concept = important
 date: "2022-01-18"
 description: "Learn the basics about 'this'"
 tags: ["programming", "this"]
