@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import kebabCase from "lodash/kebabCase"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -24,7 +25,7 @@ const BlogIndex = ({ data, location }) => {
       <Seo title="All posts" />
       <Bio />
       <ol style={{ listStyle: `none` }}>
-        {posts.map(post => {
+        {posts.slice(0, 10).map(post => {
           const title = post.frontmatter.title || post.fields.slug
 
           return (
@@ -50,11 +51,48 @@ const BlogIndex = ({ data, location }) => {
                     itemProp="description"
                   />
                 </section>
+                <div
+                  style={{
+                    margin: "10px",
+                  }}
+                >
+                  {" "}
+                  &#123;
+                  {post.frontmatter.tags.map(tag => (
+                    <Link key={tag} to={`/tags/${kebabCase(tag)}/`}>
+                      <button
+                        style={{
+                          backgroundColor: "#f5f5f5",
+                          border: "none",
+                          color: "#000",
+                          padding: "5px 10px",
+                          textAlign: "center",
+                          textDecoration: "none",
+                          display: "inline-block",
+                          fontSize: "16px",
+                          margin: "4px 2px",
+                          cursor: "pointer",
+                          borderRadius: "5px",
+                        }}
+                      >
+                        {tag}
+                      </button>
+                    </Link>
+                  ))}
+                  &#125;
+                </div>
               </article>
             </li>
           )
         })}
       </ol>
+      <div>
+        <h2 style={{ textAlign: "center" }}>
+          <span itemProp="headline">
+            <Link to="/tags/">All tags</Link>
+          </span>
+        </h2>
+      </div>
     </Layout>
   )
 }
@@ -78,6 +116,7 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
           description
+          tags
         }
       }
     }

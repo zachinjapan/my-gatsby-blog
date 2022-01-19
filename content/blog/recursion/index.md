@@ -2,7 +2,7 @@
 title: An Introduction to Recursion
 date: "2022-01-01"
 description: "Learn the basics about recursion"
-tags: ["programming", "recursion"]
+tags: ["programming concepts", "javascript"]
 ---
 
 On my journey to becoming a web developer in Japan, I have found two concepts difficult to understand. The first, is [higher order functions](https://dev.to/zachinjapan/higher-order-functions-4h7e). The second is recursion.
