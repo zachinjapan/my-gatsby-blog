@@ -19,6 +19,9 @@ const Tags = ({ pageContext, data }) => {
         alignItems: "center",
         justifyContent: "center",
         margin: "0 auto",
+        padding: "20px",
+        height: "100vh",
+        width: "100vw",
       }}
     >
       <h1>{tagHeader}</h1>

@@ -25,6 +25,9 @@ const TagsPage = ({
         alignItems: "center",
         justifyContent: "center",
         margin: "0 auto",
+        padding: "20px",
+        height: "100vh",
+        width: "100vw",
       }}
     >
       <h1>Tags</h1>
@@ -37,6 +40,7 @@ const TagsPage = ({
           </li>
         ))}
       </ul>
+      <Link to={`/`}>Back Home</Link>
     </div>
   </div>
 )
