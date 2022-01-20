@@ -25,18 +25,18 @@ Either way, I hope you enjoy reading about my study process using free resources
 
 ### The Free Resources I Used to Review Javascript
 
-| Name                                       | Notes                               | Type                        |
-| :----------------------------------------- | :---------------------------------- | :-------------------------- |
-|                                            |                                     |                             |
-| [Eloquent Javascript ](http://example.com) | chapters 1-6 especially             | Book (free online)          |
-|                                            |                                     |                             |
-| [Codecademy ](http://example.com)          | Intro to JS Course                  | interactive(text)           |
-|                                            |                                     |                             |
-| [Fullstack Acadamy](http://example.com)    | The bootcamp prep has a free option | interactive(video)          |
-|                                            |                                     |                             |
-| [Codewars ](http://example.com)            | focus on level 7/8                  | gamified algorithm exercies |
-|                                            |                                     |                             |
-| [Youtube ](http://example.com)             | the most dangerous of all resources | passive (video)             |
+| Name                                                                | Notes                               | Type                        |
+| :------------------------------------------------------------------ | :---------------------------------- | :-------------------------- |
+|                                                                     |                                     |                             |
+| [Eloquent Javascript ](https://eloquentjavascript.net)              | chapters 1-6 especially             | Book (free online)          |
+|                                                                     |                                     |                             |
+| [Codecademy ](https://www.codecademy.com/learn)                     | Intro to JS Course                  | interactive(text)           |
+|                                                                     |                                     |                             |
+| [Fullstack Acadamy](https://www.fullstackacademy.com/bootcamp-prep) | The bootcamp prep has a free option | interactive(video)          |
+|                                                                     |                                     |                             |
+| [Codewars ](https://www.codewars.com/dashboard)                     | focus on level 7/8                  | gamified algorithm exercies |
+|                                                                     |                                     |                             |
+| [Youtube ](https://youtube.com)                                     | the most dangerous of all resources | passive (video)             |
 
 ### What I did
 
@@ -56,7 +56,7 @@ and...
 
 </br>
 
-At the end of the day, there are many other great resources like [freeCodeCamp ](http://example.com).
+At the end of the day, there are many other great resources like [freeCodeCamp ](https://www.freecodecamp.org).
 
 But try not to get lost in finding the perfect resource.
 
