@@ -7,7 +7,7 @@ tags: ["programming concepts", "javascript"]
 
 ## What is 'this'?
 
-<img src = "https://media.giphy.com/media/26FLgGTPUDH6UGAbm/giphy.gif">
+<img src = "https://media.giphy.com/media/26FLgGTPUDH6UGAbm/giphy.gif" width="100%" style="width:100%">
 
 > A property of an execution context (global, function or eval) that, in non–strict mode, is always a reference to an object and in strict mode can be any value. (MDN)
 
@@ -64,7 +64,7 @@ console.log(Person2.sayHi());
 // Hi, I'm Jill
 ```
 
-<img src = "https://media.giphy.com/media/Rl9Yqavfj2Ula/giphy.gif" />
+<img src = "https://media.giphy.com/media/Rl9Yqavfj2Ula/giphy.gif" width="100%" style="width:100%" />
 
 I hope that helped you understand what 'this' is.
 
