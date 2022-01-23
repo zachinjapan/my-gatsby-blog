@@ -1,15 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Zach in Japan`,
+    title: `Taco_Cat`,
     author: {
       name: `Zach Stone`,
-      summary: `Learn about his journey from English teacher to web developer in Japan.`,
+      summary: `Learn about his journey from English teacher in Japan to full time web developer"`,
     },
-    description: `A blog detailing Zach Stone's journey from English teacher to web developer. `,
+    description: `A blog detailing Zach Stone's journey from English teacher to full time web developer. `,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
-    social: {
-      twitter: `zachinjapan888`,
-    },
   },
   plugins: [
     `gatsby-plugin-image`,
