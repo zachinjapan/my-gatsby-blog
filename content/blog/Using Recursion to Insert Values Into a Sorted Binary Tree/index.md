@@ -5,9 +5,7 @@ description: "Learn about how to use recursion to insert values into a sorted bi
 tags: ["programming concepts", "javascript"]
 ---
 
-## Hi! I hope you are well.
-
-I have been playing around with sorted binary trees recently.
+## I have been playing around with sorted binary trees recently.
 
 > In computer science, a binary search tree (BST), also called an ordered or sorted binary tree, is a rooted binary tree data structure whose internal nodes each store a key greater than all the keys in the node's left subtree and less than those in its right subtree. The time complexity of operations on the binary search tree is directly proportional to the height of the tree.
 
