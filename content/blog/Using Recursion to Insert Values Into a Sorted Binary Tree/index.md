@@ -34,7 +34,17 @@ class Node {
 }
 ```
 
-#Still with me?
+```
+    let newNode = new Node(value);
+    // if empty
+    if (this.count === 0) {
+      this.root = newNode;
+      this.count++;
+      return;
+    }
+```
+
+##Still with me?
 
 Cool! so here's the fun part
 
