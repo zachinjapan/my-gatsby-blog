@@ -66,7 +66,7 @@ Cool! so here's the fun part
   }
 ```
 
-Let's break it down
+Let's
 
 <img src ="https://media.giphy.com/media/Qvps3j9alpsQSARLJk/giphy.gif">
 
