@@ -256,7 +256,7 @@ a:focus {
 
 .main-heading {
   font-size: var(--fontSize-7);
-  margin: 0;
+  margin: 10px;
 }
 
 .post-list-item {
@@ -319,7 +319,22 @@ a:focus {
   margin-bottom: var(--spacing-8);
 }
 
+.layout {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.tags {
+  width: 400px;
+}
+
 /* Media queries */
+
+@media (max-width: 768px) {
+  .tags {
+    display: none;
+  }
+}
 
 @media (max-width: 42rem) {
   blockquote {
