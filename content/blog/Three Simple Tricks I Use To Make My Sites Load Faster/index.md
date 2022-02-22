@@ -33,7 +33,7 @@ I updated the image url and saved 40ms!
 
 <img src = "https://media.giphy.com/media/3oz8xBmTULwn1QSNgI/giphy.gif" width = "50%">
 
-## 3. Lazy Loading
+## 3. Use Lazy Loading
 
 My blog posts on my portfolio are displayed as gifs.... gifs can be costly to load!
 
