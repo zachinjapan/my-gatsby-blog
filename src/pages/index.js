@@ -116,6 +116,13 @@ const BlogIndex = ({ data, location }) => {
           </span>
         </h2>
       </div>
+      <div className="gallery-link">
+        <h2 style={{ textAlign: "center" }}>
+          <span itemProp="headline">
+            <Link to="/gallery/">Image Gallery</Link>
+          </span>
+        </h2>
+      </div>
     </Layout>
   )
 }

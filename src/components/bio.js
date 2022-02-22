@@ -34,7 +34,7 @@ const Bio = () => {
           className="bio-avatar"
           layout="fixed"
           formats={["auto", "webp", "avif"]}
-          src="../images/profile-pic.jpeg"
+          src="../images/gallery/profile-pic.jpeg"
           width={50}
           height={50}
           quality={95}
@@ -46,7 +46,7 @@ const Bio = () => {
               Written by <strong>{author.name}</strong>{" "}
               {author?.summary || null}
               <a href="https://linktr.ee/zachinjapan">
-                My Links <FaLink />
+                My Social Links <FaLink />
               </a>{" "}
             </p>
           </>

@@ -330,8 +330,18 @@ a:focus {
 
 /* Media queries */
 
+/* mobile */
+
 @media (max-width: 768px) {
   .tags {
+    display: none;
+  }
+}
+
+/* larger than mobile */
+
+@media (min-width: 768px) {
+  .gallery-link {
     display: none;
   }
 }
