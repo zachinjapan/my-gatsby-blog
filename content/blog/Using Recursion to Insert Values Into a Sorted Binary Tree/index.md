@@ -110,11 +110,11 @@ else {calls the recursive function but with 20}
 ## this continues till it hits 29 at which
 
 if (27 < 29) ...true!
-if (!node.right)....TRUE!!!!!
+if (!node.left)....TRUE!!!!!
 ok! we're done!
 
 ```
-node.right = newNode;
+node.left = newNode;
 ```
 
 <img src = "https://media.giphy.com/media/229OX0vSVNys10AZnS/giphy.gif" width = "100%">
