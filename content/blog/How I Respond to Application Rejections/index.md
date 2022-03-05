@@ -29,7 +29,7 @@ You thought that was the one. Was all that work a waste?
 
 While it can feel backwards to send a thank you email, there might have been situations outside of your control. For example, maybe an internal employee went for the same position.
 
-##Here is an idea of what to say
+## Here is an idea of what to say
 
 Dear (company and or hiring manager)
 
