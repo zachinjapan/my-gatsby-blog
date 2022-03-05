@@ -1,7 +1,7 @@
 ---
 title: How I Respond to Application Rejections
 date: "2022-03-05"
-description: "Learn how to use a interview job regection to your benifit."
+description: "Learn how to use an interview job regection to your benifit."
 tags: ["life"]
 ---
 
