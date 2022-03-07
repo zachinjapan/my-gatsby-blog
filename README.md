@@ -1,10 +1,10 @@
 
 A blog using Gatsby JS and graphQL
 
-Recent additions
+Recent additions:
 
 -The Ability to filter by tags
 
--A custom image gallery.
+-A custom image gallery
 
--Non Tech Blog Posts
+-Non tech blog posts
