@@ -20,7 +20,6 @@ const BlogIndex = ({ data, location }) => {
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2495439414515461"
             crossorigin="anonymous"
           ></script>
-          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
         </Helmet>
         <Layout location={location} title={siteTitle}>
           <Seo title="All posts" />

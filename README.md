@@ -1,4 +1,3 @@
-
 A blog using Gatsby JS and graphQL
 
 Recent additions:
