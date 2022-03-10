@@ -19,9 +19,7 @@ You thought that was the one. Was all that work a waste?
 
 1. Think about the questions that tripped you up. Write them down and perfect the answer.
 
-<img src = "https://media.giphy.com/media/nGtOFccLzujug/giphy.gif" width = "70%">
-
-2.Send a thank-you email.
+2. Send a thank-you email.
 
 <img src = "https://media.giphy.com/media/ghuvaCOI6GOoTX0RmH/giphy.gif" width = "70%">
 
