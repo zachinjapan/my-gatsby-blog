@@ -52,14 +52,6 @@ const BlogIndex = ({ data, location }) => {
               <h1> Image Gallery</h1>
             </Link>
           </div>
-          <ins
-            class="adsbygoogle"
-            style="display:block"
-            data-ad-client="ca-pub-2495439414515461"
-            data-ad-slot="1585484188"
-            data-ad-format="auto"
-            data-full-width-responsive="true"
-          ></ins>
         </div>
         <main>
           <h1 className="main-heading">Recent Posts</h1>
