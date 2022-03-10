@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import kebabCase from "lodash/kebabCase"
+import { Helmet } from "react-helmet"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -12,11 +13,20 @@ const BlogIndex = ({ data, location }) => {
 
   if (posts.length === 0) {
     return (
-      <Layout location={location} title={siteTitle}>
-        <Seo title="All posts" />
-        <Bio />
-        <p>No blog posts found.</p>
-      </Layout>
+      <>
+        <Helmet>
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2495439414515461"
+            crossorigin="anonymous"
+          ></script>
+        </Helmet>
+        <Layout location={location} title={siteTitle}>
+          <Seo title="All posts" />
+          <Bio />
+          <p>No blog posts found.</p>
+        </Layout>
+      </>
     )
   }
 
