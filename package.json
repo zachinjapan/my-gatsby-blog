@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "@browniebroke/gatsby-image-gallery": "^7.0.3",
-    "@isamrish/gatsby-plugin-google-adsense": "^1.2.0",
     "gatsby": "^4.2.0",
     "gatsby-plugin-feed": "^4.2.0",
     "gatsby-plugin-gatsby-cloud": "^4.2.0",

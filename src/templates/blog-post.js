@@ -4,7 +4,6 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import { Helmet } from "react-helmet"
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
