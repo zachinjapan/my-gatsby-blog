@@ -14,13 +14,6 @@ const BlogIndex = ({ data, location }) => {
   if (posts.length === 0) {
     return (
       <>
-        <Helmet>
-          <script
-            async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2495439414515461"
-            crossorigin="anonymous"
-          ></script>
-        </Helmet>
         <Layout location={location} title={siteTitle}>
           <Seo title="All posts" />
           <Bio />
@@ -32,14 +25,6 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <>
-      <Helmet>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2495439414515461"
-          crossorigin="anonymous"
-        ></script>
-      </Helmet>
-
       <Layout location={location} title={siteTitle}>
         <Seo title="All posts" />
         <Bio />

@@ -18,6 +18,13 @@ module.exports = {
       },
     },
     {
+      resolve: `@isamrish/gatsby-plugin-google-adsense`,
+      options: {
+        googleAdClientId: "pub-2495439414515461",
+        head: true, // Optional
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
