@@ -6,9 +6,10 @@ module.exports = {
       summary: `Learn about his journey from English teacher to full time web developer.`,
     },
     description: `A blog detailing Zach Stone's journey from English teacher to full time web developer. `,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    siteUrl: `https://zachinjapan.com`,
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
