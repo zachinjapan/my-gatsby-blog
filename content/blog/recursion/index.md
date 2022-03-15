@@ -15,17 +15,17 @@ On my journey to becoming a web developer in Japan, I have found two concepts di
 
 > Recursion (adjective: recursive) occurs when a thing is defined in terms of itself or of its type... a function being defined is applied within its own definition. While this apparently defines an infinite number of instances (function values), it is often done in such a way that no infinite loop or infinite chain of references can occur. - Wikipedia
 
-## Now in layman's terms
+## Now, in layman's terms
 
 <br>
 
 > Recursion is when the function uses itself in a loop until some test, defined within itself, is met. - Zach Stone
 
-## Lets look at an example.
+## Let's look at an example.
 
 <br>
 
-Define a function that takes an input number. The program console logs the number and every subsequent number reducing by 1 each time. It does this until it reaches 0. When the function reaches 0, it should console log "I'm finished"
+Define a function that takes an input number. The program console logs the number and every subsequent number reducing by one each time. It does this until it reaches 0. When the function reaches 0, it should console log "I'm finished."
 
 ## without recursion (iteratively)
 
@@ -33,13 +33,13 @@ Define a function that takes an input number. The program console logs the numbe
 
 ```
 const countDown = (num) => {
-  for (let x = num; x >= 0; x--) {
-    if (x === 0) {
-      console.log("I'm finished");
-    } else {
-      console.log(x);
-    }
-  }
+ for (let x = num; x >= 0; x--) {
+ if (x === 0) {
+ console.log("I'm finished");
+ } else {
+ console.log(x);
+ }
+ }
 };
 
 countDown(20); // 20 , 19, 18, 17, 16, 15 ,14 ,13 ,12 ,11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, "I'm finished"
@@ -56,17 +56,17 @@ The base case in this situation is
 
 `if (x === 0)`
 
-So we just need to rewrite the function.
+So we need to rewrite the function.
 
 ```
 
 const countDown = (num) => {
-  if (num === 0) {
-    console.log("I'm finished");
-  } else {
-    console.log(num);
-    return countDown(num - 1);
-  }
+ if (num === 0) {
+ console.log("I'm finished");
+ } else {
+ console.log(num);
+ return countDown(num - 1);
+ }
 };
 
 countDown(20); // 20 , 19, 18, 17, 16, 15 ,14 ,13 ,12 ,11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, "I'm finished"
@@ -80,7 +80,7 @@ countDown(20); // 20 , 19, 18, 17, 16, 15 ,14 ,13 ,12 ,11, 10, 9, 8, 7, 6, 5, 4,
 
 <img width="100%" style="width:100%" src="https://media.giphy.com/media/3oz8xynJ88hmIdCCOI/giphy.gif">
 
-The function calls itself over and over, reducing by 1 each time. When the base case is met, it console logs "I'm finished" and ends.
+The function calls itself over and over, reducing by 1 each time. Finally, when the base case is met, it console logs "I'm finished" and ends.
 
 ## Here are some resources to learn more
 
