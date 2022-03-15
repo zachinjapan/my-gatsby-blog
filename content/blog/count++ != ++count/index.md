@@ -39,18 +39,18 @@ preAdd = {++count}
 
 ```
 class Counter {
- constructor (){
- this.count = 0
- }
- postAdd(){
- let oldCount = this.count;
- this.count+=1;
- return oldCount
- }
- preAdd(){
- this.count += 1;
- return this.count
- }
+  constructor (){
+    this.count = 0
+  }
+  postAdd(){
+    let oldCount = this.count;
+    this.count+=1;
+    return oldCount
+  }
+  preAdd(){
+    this.count += 1;
+    return this.count
+  }
 }
 
 let count = new Counter();
