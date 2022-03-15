@@ -39,18 +39,18 @@ preAdd = {++count}
 
 ```
 class Counter {
-  constructor (){
-    this.count = 0
-  }
-  postAdd(){
-    let oldCount = this.count;
-    this.count+=1;
-    return oldCount
-  }
-  preAdd(){
-    this.count += 1;
-    return this.count
-  }
+ constructor (){
+ this.count = 0
+ }
+ postAdd(){
+ let oldCount = this.count;
+ this.count+=1;
+ return oldCount
+ }
+ preAdd(){
+ this.count += 1;
+ return this.count
+ }
 }
 
 let count = new Counter();
@@ -63,11 +63,11 @@ console.log(count.preAdd()) // 2 (the first console.log still increments!!!)
 
 ## In my own words
 
-> {variable}++ can be used when you don't reference the increased variable in that function call, and ++{variable} is useful when you need to reference the incremented variable immediately. -Zach Stone
+> {variable}++ can be used when you don't reference the increased variable in that function call, and ++{variable} is valid when you need to reference the incremented variable immediately. -Zach Stone
 
-Technically, pre incrementent is also faster since it is not creating a new variable each time.
+Technically, pre increment is also faster since it is not creating a new variable each time.
 
-## How do you decide whether to use pre or post increment?
+## How do you decide whether to use pre or post-increment?
 
 Feel free to contact me using my [website](https://zstone.dev).
 

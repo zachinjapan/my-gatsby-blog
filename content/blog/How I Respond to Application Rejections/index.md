@@ -1,7 +1,7 @@
 ---
 title: How I Respond to Application Rejections
 date: "2022-03-05"
-description: "Learn how to use an interview job rejection to your benifit."
+description: "Learn how to use an interview job rejection to your benefit."
 tags: ["life"]
 ---
 
@@ -17,7 +17,7 @@ You thought that was the one. Was all that work a waste?
 
 ## There are two things you can do to turn the situation around.
 
-1. Think about the questions that tripped you up. Write them down and perfect the answer.
+1. Think about the questions that tripped you up. Then, write them down and perfect the answer.
 
 2. Send a thank-you email.
 
@@ -25,7 +25,7 @@ You thought that was the one. Was all that work a waste?
 
 ## A thank you email??! Yes.
 
-While it can feel backwards to send a thank you email, there might have been situations outside of your control. For example, maybe an internal employee went for the same position.
+While sending a thank-you email can feel backward, there might have been situations outside your control. For example, maybe an internal employee went for the same position.
 
 ## Here is an idea of what to say
 
@@ -35,7 +35,7 @@ I'm happy to hear you found the right candidate. Thank you for getting back to m
 
 I enjoyed learning about (company)
 
-I know that I am not in a position to ask for favors. Still, if you have a moment to spare, I would love any additional feedback about areas in my application that I could improve in order to increase my chances of becoming a (job title)
+I know that I am not in a position to ask for favors. Still, if you have a moment to spare, I would love any additional feedback about areas in my application that I could improve to increase my chances of becoming a (job title)
 
 Please do not feel obligated to answer this question, but if there was something you noticed, it would help me in my job search, and I would be so grateful.
 

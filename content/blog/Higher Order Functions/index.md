@@ -37,15 +37,15 @@ const sum = addTwo(3) // inputs y as 3
 //sum = 5
 ```
 
-## That my friend, is a higher order function.
+## That, my friend, is a higher-order function.
 
 [Elqouent Javascript Chapter 5](https://eloquentjavascript.net/05_higher_order.html "EJS")
 
-    Functions that operate on other functions,
-    either by taking them as arguments or
-    by returning them, are called higher-order functions.
+Functions that operate on other functions,
+either by taking them as arguments or
+by returning them, are called higher-order functions.
 
-The code above is an example of returning a function that inherits the outer scope's function's variable
+The code above is an example of returning a function that inherits the outer scope's function variable
 
 Here is an example of using a function as an input
 
@@ -60,7 +60,7 @@ greetPerson("Jon", howsItGoing) // Jon! Hows'it going?
 greetPerson("Fred", hello) // Hello Fred
 ```
 
-Not too scary after all.
+Not too scary, after all.
 
 You might have noticed that there are a few Array Methods that take functions as inputs.... well....
 that.....
@@ -97,6 +97,6 @@ Cool right?
 
 Did you enjoy this article? Or did I get something wrong?
 
-Feel free to contact me using my [website](https://zstone.dev "zach's website")
+Feel free to contact me using my [website](https://zstone.dev "Zach's website")
 
 Have a fantastic day!
