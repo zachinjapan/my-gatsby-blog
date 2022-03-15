@@ -26,22 +26,22 @@ I do two things for the insert() method of my tree.
 ```
 // node class for reference
 class Node {
- constructor(value){
- this.value = value;
- this.left = null;
- this.right = null
- }
+  constructor(value){
+    this.value = value;
+    this.left = null;
+    this.right = null
+  }
 }
 ```
 
 ```
- let newNode = new Node(value);
- // if empty
- if (this.count === 0) {
- this.root = newNode;
- this.count++;
- return;
- }
+    let newNode = new Node(value);
+    // if empty
+    if (this.count === 0) {
+      this.root = newNode;
+      this.count++;
+      return;
+    }
 ```
 
 ## Still with me?
@@ -49,29 +49,29 @@ class Node {
 Cool! so here's the fun part
 
 ```
- this.count++;
- //recursive call
- const searchTree = node => {
- // less than
- if (value < node.value) {
- if (!node.left) {
- node.left = newNode;
- } else {
- searchTree(node.left)
- }
- greater than
- } else if (value > node.value) {
- if (!node.right) {
- node.right = newNode;
- } else {
- searchTree(node.right);
- }
- }
- }
- //start of recursive call
- searchTree(this.root)
+  this.count++;
+    //recursive call
+    const searchTree = node => {
+      // less than
+      if (value < node.value) {
+        if (!node.left) {
+          node.left = newNode;
+        } else {
+          searchTree(node.left)
+        }
+      greater than
+      } else if (value > node.value) {
+        if (!node.right) {
+          node.right = newNode;
+        } else {
+          searchTree(node.right);
+        }
+      }
+    }
+    //start of recursive call
+    searchTree(this.root)
 
- }
+  }
 ```
 
 Let's
@@ -82,12 +82,14 @@ We have the following tree.
 
 ```
 
- 31
- 30
- 20 29
+
+            31
+        30
+    20      29
 10
- 5
- 4
+    5
+        4
+
 
 ```
 
