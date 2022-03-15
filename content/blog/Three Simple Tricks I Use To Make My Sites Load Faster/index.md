@@ -1,7 +1,7 @@
 ---
 title: Three Simple Tricks I Use To Make My Sites Load Faster
 date: "2022-02-22"
-description: "Learn about how to inrease the speed of your site."
+description: "Learn about how to increase the speed of your site."
 tags: ["web development", "backend-development"]
 ---
 
@@ -29,7 +29,7 @@ Recently I ran my portfolio website on Chrome, checking the network activity tab
 
 Uh oh!!! That 404 (bad request) is costing me 40ms on every load!
 
-I updated the image url and saved 40ms!
+I updated the image URL and saved 40ms!
 
 <img src = "https://media.giphy.com/media/3oz8xBmTULwn1QSNgI/giphy.gif" width = "50%">
 
@@ -47,16 +47,16 @@ The load time is
 
 <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/s85lzk3ct2vk84szudnc.png" width="50%" alt = "google chrome network tab">
 
-Those gifs are blocking the site's initial load. All for images that the user will not see until much farther down in the page.
+Those gifs are blocking the site's initial load. All of that for images that the user will not see until much farther down the page.
 
 Let's add lazy loading.
 
 ```
 // react component
-   <CardMedia
-          ... some react stuff ...
-          loading="lazy"
-        />
+ <CardMedia
+ ... some react stuff ...
+ loading="lazy"
+ />
 
 ```
 

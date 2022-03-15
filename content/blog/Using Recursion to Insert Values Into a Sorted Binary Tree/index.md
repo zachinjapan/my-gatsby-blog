@@ -1,7 +1,7 @@
 ---
 title: Using Recursion to Insert Values Into a Sorted Binary Tree
 date: "2022-02-14"
-description: "Learn about how to use recursion to insert values into a sorted binary tree"
+description: "Learn how to use recursion to insert values into a sorted binary tree."
 tags: ["programming concepts", "javascript"]
 ---
 
@@ -13,9 +13,9 @@ tags: ["programming concepts", "javascript"]
 
 ## My favorite part about binary trees is using recursion to travel down the nodes.
 
-For the insert() method of my tree. I do 2 things
+I do two things for the insert() method of my tree.
 
-1. I check if the tree is empty if so I add the node.
+1. I check if the tree is empty. If so, I add the node.
 
 2. I create a recursive function to travel down the tree and eventually add the new node if it hits the end of the branch (no more nodes)
 
@@ -26,22 +26,22 @@ For the insert() method of my tree. I do 2 things
 ```
 // node class for reference
 class Node {
-  constructor(value){
-    this.value = value;
-    this.left = null;
-    this.right = null
-  }
+ constructor(value){
+ this.value = value;
+ this.left = null;
+ this.right = null
+ }
 }
 ```
 
 ```
-    let newNode = new Node(value);
-    // if empty
-    if (this.count === 0) {
-      this.root = newNode;
-      this.count++;
-      return;
-    }
+ let newNode = new Node(value);
+ // if empty
+ if (this.count === 0) {
+ this.root = newNode;
+ this.count++;
+ return;
+ }
 ```
 
 ## Still with me?
@@ -49,49 +49,49 @@ class Node {
 Cool! so here's the fun part
 
 ```
-    this.count++;
-    //recursive call
-    const searchTree = node => {
-      // less than
-      if (value < node.value) {
-        if (!node.left) {
-          node.left = newNode;
-        } else {
-          searchTree(node.left)
-        }
-      greater than
-      } else if (value > node.value) {
-        if (!node.right) {
-          node.right = newNode;
-        } else {
-          searchTree(node.right);
-        }
-      }
-    }
-    //start of recursive call
-    searchTree(this.root)
+ this.count++;
+ //recursive call
+ const searchTree = node => {
+ // less than
+ if (value < node.value) {
+ if (!node.left) {
+ node.left = newNode;
+ } else {
+ searchTree(node.left)
+ }
+ greater than
+ } else if (value > node.value) {
+ if (!node.right) {
+ node.right = newNode;
+ } else {
+ searchTree(node.right);
+ }
+ }
+ }
+ //start of recursive call
+ searchTree(this.root)
 
-  }
+ }
 ```
 
 Let's
 
 <img src ="https://media.giphy.com/media/Qvps3j9alpsQSARLJk/giphy.gif">
 
-We have the following tree
+We have the following tree.
 
 ```
 
-            31
-        30
-    20      29
+ 31
+ 30
+ 20 29
 10
-    5
-        4
+ 5
+ 4
 
 ```
 
-## We want add 27
+## We want to add 27
 
 1st. we check if it is empty (it's not)
 2nd we start the recursive call with the root (10)
@@ -107,7 +107,7 @@ goes to else if (27 > 10) ...true!
 if (!10.right) false!!!
 else {calls the recursive function but with 20}
 
-## this continues till it hits 29 at which
+## this continues till it hits 29, at which
 
 if (27 < 29) ...true!
 if (!node.left)....TRUE!!!!!
