@@ -42,13 +42,13 @@ Let's make two person objects using the Person class and assign them a name usin
 
 ```
 class Person {
- constructor(name) {
- this.name = name;
- }
+  constructor(name) {
+    this.name = name;
+  }
 
- sayHi() {
- return (`Hi, I'm ${this.name}`);
- }
+    sayHi() {
+        return (`Hi, I'm ${this.name}`);
+        }
 }
 
 const Person1 = new Person ("Bob");

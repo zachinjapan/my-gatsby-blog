@@ -33,13 +33,13 @@ Define a function that takes an input number. The program console logs the numbe
 
 ```
 const countDown = (num) => {
- for (let x = num; x >= 0; x--) {
- if (x === 0) {
- console.log("I'm finished");
- } else {
- console.log(x);
- }
- }
+  for (let x = num; x >= 0; x--) {
+    if (x === 0) {
+      console.log("I'm finished");
+    } else {
+      console.log(x);
+    }
+  }
 };
 
 countDown(20); // 20 , 19, 18, 17, 16, 15 ,14 ,13 ,12 ,11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, "I'm finished"
@@ -61,15 +61,17 @@ So we need to rewrite the function.
 ```
 
 const countDown = (num) => {
- if (num === 0) {
- console.log("I'm finished");
- } else {
- console.log(num);
- return countDown(num - 1);
- }
+  if (num === 0) {
+    console.log("I'm finished");
+  } else {
+    console.log(num);
+    return countDown(num - 1);
+  }
 };
 
 countDown(20); // 20 , 19, 18, 17, 16, 15 ,14 ,13 ,12 ,11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, "I'm finished"
+
+
 
 
 ```
