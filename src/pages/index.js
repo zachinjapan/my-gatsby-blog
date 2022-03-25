@@ -59,7 +59,6 @@ const BlogIndex = ({ data, location }) => {
               className="adsbygoogle"
               style={{ display: "block" }}
               slot="6410762425"
-              layout="responsive"
               format="auto"
               responsive="true"
               client="ca-pub-8989467010981208"
