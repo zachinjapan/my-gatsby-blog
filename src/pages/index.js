@@ -5,7 +5,8 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import kebabCase from "lodash/kebabCase"
-import { Adsense } from "@ctrl/react-adsense"
+import Banner from "../components/banner"
+
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
@@ -45,12 +46,12 @@ const BlogIndex = ({ data, location }) => {
                 <h1> Image Gallery</h1>
               </Link>
             </div>
-            <Adsense
-              client="ca-pub-2495439414515461"
-              slot="6410762425"
+            <Banner
+              className="adsbygoogle"
               style={{ display: "block" }}
-              layout="in-article"
-              format="fluid"
+              slot="6410762425"
+              format="auto"
+              responsive="true"
             />
           </div>
           <main>

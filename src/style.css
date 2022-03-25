@@ -326,6 +326,7 @@ a:focus {
 
 .tags {
   width: 400px;
+  margin-right: 20px;
 }
 
 /* Media queries */
