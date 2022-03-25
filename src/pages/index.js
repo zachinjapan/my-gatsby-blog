@@ -6,6 +6,8 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import kebabCase from "lodash/kebabCase"
 
+import AdSense from "react-adsense"
+
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
@@ -45,6 +47,13 @@ const BlogIndex = ({ data, location }) => {
                 <h1> Image Gallery</h1>
               </Link>
             </div>
+            <AdSense.Google
+              client="ca-pub-2495439414515461"
+              slot="6410762425"
+              style={{ display: "block" }}
+              format="auto"
+              responsive="true"
+            />
           </div>
           <main>
             <h1 className="main-heading">Recent Posts</h1>
