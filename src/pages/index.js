@@ -31,11 +31,10 @@ const BlogIndex = ({ data, location }) => {
         <Banner
           className="adsbygoogle"
           style={{ display: "block" }}
-          slot="6410762425"
-          layout="responsive"
-          format="auto"
-          responsive="true"
-          client="2495439414515461"
+          slot="4316750428"
+          format="fluid"
+          client="ca-pub-2495439414515461"
+          layoutKey="-6t+ed+2i-1n-4w"
         />
         <div className="layout">
           <div className="tags">

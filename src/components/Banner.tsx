@@ -47,7 +47,6 @@ const Banner: React.FC<BannerProps> = ({
         data-ad-slot={slot}
         data-ad-layout-key={layoutKey}
         data-full-width-responsive={responsive}
-        data-adtest="on"
       />
     </>
   )
