@@ -35,7 +35,7 @@ const BlogIndex = ({ data, location }) => {
           layout="responsive"
           format="auto"
           responsive="true"
-          client="ca-pub-8989467690981208"
+          client="8989467690981208"
         />
         <div className="layout">
           <div className="tags">
