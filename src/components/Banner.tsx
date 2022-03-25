@@ -23,7 +23,7 @@ const Banner: React.FC<BannerProps> = ({
   style,
   layout,
   format,
-  client = "ca-pub-2495439414515461",
+  client,
   slot,
   responsive,
   layoutKey,
@@ -47,6 +47,7 @@ const Banner: React.FC<BannerProps> = ({
         data-ad-slot={slot}
         data-ad-layout-key={layoutKey}
         data-full-width-responsive={responsive}
+        data-adtest="on"
       />
     </>
   )

@@ -33,8 +33,8 @@ const BlogIndex = ({ data, location }) => {
           style={{ display: "block" }}
           slot="6410762425"
           layout="responsive"
-          format="auto"
           responsive="true"
+          client="2495439414515461"
         />
         <div className="layout">
           <div className="tags">
@@ -61,6 +61,7 @@ const BlogIndex = ({ data, location }) => {
               layout="responsive"
               format="auto"
               responsive="true"
+              client="ca-pub-2495439414515461"
             />
           </div>
           <main>
