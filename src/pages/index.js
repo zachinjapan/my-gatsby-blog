@@ -5,8 +5,8 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import kebabCase from "lodash/kebabCase"
-import Banner from "../components/Banner"
-
+import ad1 from "../images/ad1.jpg"
+import ad2 from "../images/ad2.png"
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
@@ -28,14 +28,6 @@ const BlogIndex = ({ data, location }) => {
       <Layout location={location} title={siteTitle}>
         <Seo title="All posts" />
         <Bio />
-        <Banner
-          className="adsbygoogle"
-          style={{ display: "block" }}
-          slot="4316750428"
-          format="fluid"
-          client="ca-pub-2495439414515461"
-          layoutKey="-6t+ed+2i-1n-4w"
-        />
         <div className="layout">
           <div className="tags">
             {" "}
@@ -50,18 +42,67 @@ const BlogIndex = ({ data, location }) => {
               ))}
             </ul>
             <div>
+              <hr
+                style={{
+                  border: "1px solid #ccc",
+                  width: "100%",
+                  margin: "0 auto",
+                }}
+              ></hr>
               <Link to="/gallery">
-                <h1> Image Gallery</h1>
+                <h1 className="main-heading"> Image Gallery</h1>
               </Link>
+              <hr
+                style={{
+                  border: "1px solid #ccc",
+                  width: "100%",
+                  margin: "0 auto",
+                }}
+              ></hr>
+              <a href="https://hakujobs.com/" target={"_blank"}>
+                <img
+                  src={ad1}
+                  alt="ad1"
+                  style={{
+                    width: "100%",
+                    height: "auto",
+                    border: "solid 1px black",
+                    marginTop: "20px",
+                    marginBottom: "20px",
+                  }}
+                />
+              </a>
+              <hr
+                style={{
+                  border: "1px solid #ccc",
+                  width: "100%",
+                  margin: "0 auto",
+                }}
+              ></hr>
+              <a
+                href="https://my-anime-collection.herokuapp.com/landing"
+                target={"_blank"}
+              >
+                <img
+                  src={ad2}
+                  alt="ad"
+                  style={{
+                    width: "100%",
+                    height: "auto",
+                    border: "solid 1px black",
+                    marginTop: "20px",
+                    marginBottom: "20px",
+                  }}
+                />
+              </a>
+              <hr
+                style={{
+                  border: "1px solid #ccc",
+                  width: "100%",
+                  margin: "0 auto",
+                }}
+              ></hr>
             </div>
-            <Banner
-              className="adsbygoogle"
-              style={{ display: "block" }}
-              slot="6410762425"
-              format="auto"
-              responsive="true"
-              client="ca-pub-2495439414515461"
-            />
           </div>
           <main>
             <h1 className="main-heading">Recent Posts</h1>
