@@ -28,6 +28,14 @@ const BlogIndex = ({ data, location }) => {
       <Layout location={location} title={siteTitle}>
         <Seo title="All posts" />
         <Bio />
+        <Banner
+          className="adsbygoogle"
+          style={{ display: "block" }}
+          slot="6410762425"
+          layout="responsive"
+          format="auto"
+          responsive="true"
+        />
         <div className="layout">
           <div className="tags">
             {" "}
@@ -50,6 +58,7 @@ const BlogIndex = ({ data, location }) => {
               className="adsbygoogle"
               style={{ display: "block" }}
               slot="6410762425"
+              layout="responsive"
               format="auto"
               responsive="true"
             />

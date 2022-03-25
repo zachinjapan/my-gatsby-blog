@@ -37,7 +37,7 @@ const Banner: React.FC<BannerProps> = ({
     }
   }, [])
   return (
-    <div>
+    <>
       <ins
         className="adsbygoogle"
         style={style}
@@ -48,7 +48,7 @@ const Banner: React.FC<BannerProps> = ({
         data-ad-layout-key={layoutKey}
         data-full-width-responsive={responsive}
       />
-    </div>
+    </>
   )
 }
 
