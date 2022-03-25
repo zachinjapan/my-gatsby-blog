@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@browniebroke/gatsby-image-gallery": "^7.0.3",
+    "@ctrl/react-adsense": "^1.5.0",
     "gatsby": "^4.2.0",
     "gatsby-plugin-feed": "^4.2.0",
     "gatsby-plugin-gatsby-cloud": "^4.2.0",
