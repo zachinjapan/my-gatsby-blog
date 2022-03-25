@@ -9,7 +9,6 @@ module.exports = {
     siteUrl: `https://zachinjapan.com`,
   },
   plugins: [
-    `gatsby-plugin-sitemap`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
