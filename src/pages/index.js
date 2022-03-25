@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import kebabCase from "lodash/kebabCase"
+import GoogleAd from "../components/GoogleAd"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -45,17 +46,7 @@ const BlogIndex = ({ data, location }) => {
                 <h1> Image Gallery</h1>
               </Link>
             </div>
-            <ins
-              className="adsbygoogle"
-              style={{
-                display: "block",
-              }}
-              data-ad-client="ca-pub-2495439414515461"
-              data-ad-slot="6410762425"
-              data-ad-format="auto"
-              data-full-width-responsive="true"
-            ></ins>
-            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            <GoogleAd slot="6410762425" googleAdId="ca-pub-2495439414515461" />
           </div>
           <main>
             <h1 className="main-heading">Recent Posts</h1>
