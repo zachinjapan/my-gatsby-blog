@@ -6,9 +6,8 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import kebabCase from "lodash/kebabCase"
-import ad1 from "../images/ad1.jpg"
-import ad2 from "../images/ad2.png"
 import { IconContext } from "react-icons"
+import Ads from "../components/Ads"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -66,58 +65,7 @@ const BlogIndex = ({ data, location }) => {
                 </span>
               </div>
             </Link>
-            <div className="ads">
-              <hr
-                style={{
-                  border: "1px solid #ccc",
-                  width: "100%",
-                  margin: "0 auto",
-                }}
-              ></hr>
-              <a href="https://hakujobs.com/" target={"_blank"}>
-                <img
-                  src={ad1}
-                  alt="ad1"
-                  style={{
-                    width: "100%",
-                    height: "auto",
-                    border: "solid 1px black",
-                    marginTop: "20px",
-                    marginBottom: "20px",
-                  }}
-                />
-              </a>
-              <hr
-                style={{
-                  border: "1px solid #ccc",
-                  width: "100%",
-                  margin: "0 auto",
-                }}
-              ></hr>
-              <a
-                href="https://my-anime-collection.herokuapp.com/landing"
-                target={"_blank"}
-              >
-                <img
-                  src={ad2}
-                  alt="ad"
-                  style={{
-                    width: "100%",
-                    height: "auto",
-                    border: "solid 1px black",
-                    marginTop: "20px",
-                    marginBottom: "20px",
-                  }}
-                />
-              </a>
-              <hr
-                style={{
-                  border: "1px solid #ccc",
-                  width: "100%",
-                  margin: "0 auto",
-                }}
-              ></hr>
-            </div>
+            <Ads />
           </div>
           <main>
             <h1 className="main-heading">Recent Posts</h1>
