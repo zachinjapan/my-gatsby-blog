@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
+import { BsFillGrid1X2Fill } from "react-icons/bs"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -7,6 +8,8 @@ import Seo from "../components/seo"
 import kebabCase from "lodash/kebabCase"
 import ad1 from "../images/ad1.jpg"
 import ad2 from "../images/ad2.png"
+import { IconContext } from "react-icons"
+
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
@@ -41,17 +44,29 @@ const BlogIndex = ({ data, location }) => {
                 </li>
               ))}
             </ul>
-            <div>
-              <hr
-                style={{
-                  border: "1px solid #ccc",
-                  width: "100%",
-                  margin: "0 auto",
-                }}
-              ></hr>
-              <Link to="/gallery">
-                <h1 className="main-heading"> Image Gallery</h1>
-              </Link>
+            <Link to="/gallery">
+              <div className="gallery">
+                <IconContext.Provider value={{ color: "var(--primary-color)" }}>
+                  <BsFillGrid1X2Fill
+                    size={30}
+                    style={{
+                      alignSelf: "center",
+                    }}
+                  />
+                </IconContext.Provider>
+                <span
+                  style={{
+                    fontSize: "2rem",
+                    fontWeight: "bold",
+                    color: "black",
+                  }}
+                >
+                  {" "}
+                  Image Gallery
+                </span>
+              </div>
+            </Link>
+            <div className="ads">
               <hr
                 style={{
                   border: "1px solid #ccc",

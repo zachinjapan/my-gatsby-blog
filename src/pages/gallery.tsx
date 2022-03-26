@@ -32,12 +32,12 @@ const gallery: React.FC<PageProps> = ({ data }) => {
 
   // Override some of Lightbox options to localise labels in French
   const lightboxOptions = {
-    imageLoadErrorMessage: "Impossible de charger cette image",
-    nextLabel: "Image suivante",
-    prevLabel: "Image précédente",
-    zoomInLabel: "Zoomer",
-    zoomOutLabel: "Dézoomer",
-    closeLabel: "Fermer",
+    imageLoadErrorMessage: "Cannot Load Images",
+    nextLabel: "Next",
+    prevLabel: "Previous",
+    zoomInLabel: "Zoom in",
+    zoomOutLabel: "Zoom out",
+    closeLabel: "Close",
   }
 
   //Add callback to Lightbox onCloseRequest
