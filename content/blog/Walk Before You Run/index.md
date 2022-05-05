@@ -1,7 +1,7 @@
 ---
 title: Why I Build Data Structures Outside Of Coding Problems
 date: "2022-05-05"
-description: "Learn how I learn new data structures.."
+description: "How to learn data structures."
 tags: ["programming concepts", "javascript"]
 ---
 
@@ -25,7 +25,9 @@ here are a few of my favorites
 
 I also find typing "data structure you are learning" + "coding language" highly effective.
 
-I would also love for you to try completing my one-week data structures challenge!
+Still not sure what to start with?
+
+Try completing my one week data structure challenge!
 
 [My Data Structures Challenge](https://github.com/zachinjapan/Data-Structures-1-Week-Challenge)
 
