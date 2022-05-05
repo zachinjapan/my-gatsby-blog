@@ -1,7 +1,7 @@
 ---
 title: Why I Build Data Structures Outside Of Coding Problems
 date: "2022-05-05"
-description: "How to learn data structures."
+description: "learn how I study data structures."
 tags: ["programming concepts", "javascript"]
 ---
 
