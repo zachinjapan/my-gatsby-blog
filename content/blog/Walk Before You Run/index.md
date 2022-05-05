@@ -31,8 +31,6 @@ Try completing my one week data structure challenge!
 
 [My Data Structures Challenge](https://github.com/zachinjapan/Data-Structures-1-Week-Challenge)
 
-<img src="https://media.giphy.com/media/FEHn3mWdc59opqkMN0/giphy.gif" width="50%">
-
 ## What do you think?
 
 Did you enjoy this post?
