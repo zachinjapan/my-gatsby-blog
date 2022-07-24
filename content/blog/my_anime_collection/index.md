@@ -5,9 +5,9 @@ description: "An in-depth walkthrough of the code base for My Anime Collection."
 tags: ["web development", "backend-development", "frontend-development"]
 ---
 
-If you would rather have a video walkthrough of the code base, you can watch
+If you would rather have a video walkthrough of the codebase, you can watch
 
-it here: [Video](https://youtu.be/YVlIq4clxxk)
+it here: [https://youtu.be/YVlIq4clxxk](https://youtu.be/YVlIq4clxxk)
 
 ## **Client**
 
