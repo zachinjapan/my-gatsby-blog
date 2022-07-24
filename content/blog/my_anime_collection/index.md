@@ -7,7 +7,7 @@ tags: ["web development", "backend-development", "frontend-development"]
 
 If you would rather have a video walkthrough of the code base, you can watch
 
-the video here: [Video](https://youtu.be/TIMfi34Ak9o)
+the video here: [Video](https://youtu.be/YVlIq4clxxk)
 
 ## **Client**
 
@@ -288,7 +288,7 @@ export default MyAnimesContainer;
 
 ### Context
 
-The app uses React's context API. The actions folder continues the action titles imported into the app context and then calls in the reducer to update the global state.
+The app uses React's context API. The actions folder continues the action titles imported into the app context and then called in the reducer to update the global state.
 
 Here is an example of the get animes function, which sends an API request to the backend to get the user's animes from the MongoDB database and handles any sorting or searching.
 
@@ -364,7 +364,7 @@ export const GET_ANIMES_SUCCESS = "GET_ANIMES_SUCCESS";
 
 ### pages
 
-The app has a series of pages. some are protected under a ProtectRoute component
+The app has a series of pages. Some are protected under a ProtectRoute component
 
 ```
 const ProtectedRoute = ({ children }) => {
