@@ -7,7 +7,7 @@ tags: ["web development", "backend-development", "frontend-development"]
 
 If you would rather have a video walkthrough of the code base, you can watch
 
-the video here: [Video](https://youtu.be/YVlIq4clxxk)
+it here: [Video](https://youtu.be/YVlIq4clxxk)
 
 ## **Client**
 
