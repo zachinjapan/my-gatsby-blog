@@ -729,7 +729,6 @@ const app = express();
 app.use(express.json());
 
 // protections
-// no content-
 app.use(helmet.dnsPrefetchControl());
 app.use(helmet.expectCt());
 app.use(helmet.frameguard());
