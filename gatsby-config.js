@@ -3,9 +3,9 @@ module.exports = {
     title: `Zach in Japan`,
     author: {
       name: `Zach Stone`,
-      summary: `Learn about his journey from English teacher to web developer in Japan.`,
+      summary: `Learn about his journey from English teacher to web developer.`,
     },
-    description: `A blog detailing Zach Stone's journey from English teacher to web developer in Japan. `,
+    description: `A blog detailing Zach Stone's journey from English teacher to web developer. `,
     siteUrl: `https://zachinjapan.com`,
   },
   plugins: [
