@@ -526,7 +526,7 @@ const AnimeSchema = new mongoose.Schema(
     },
     japanese_title: {
       type: String,
-      required: [false, "Please provide Japanese title"],
+      required: [false, "Please provide japanese title"],
     },
     rating: {
       type: Number,
@@ -556,6 +556,10 @@ const AnimeSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    isDemoAnime: {
+      type: Boolean,
+      default: false,
+    },
   },
   { timestamps: true }
 );
@@ -580,59 +584,58 @@ const playlist = new mongoose.Schema(
   { timestamps: true }
 );
 
-const UserSchema = new mongoose.Schema({
-  name: {
-    type: String,
-    required: [true, "Please provide name"],
-    minlength: 3,
-    maxlength: 20,
-    trim: true,
-  },
-  email: {
-    type: String,
-    required: [true, "Please provide email"],
-    validate: {
-      validator: validator.isEmail,
-      message: "Please provide a valid email",
+const UserSchema = new mongoose.Schema(
+  {
+    name: {
+      type: String,
+      required: [true, "Please provide name"],
+      minlength: 3,
+      maxlength: 20,
+      trim: true,
     },
-    unique: true,
-  },
-  isDemo: {
-    type: Boolean,
-    default: false,
-  },
-  password: {
-    type: String,
-    required: [true, "Please provide password"],
-    minlength: 6,
-    select: false,
-  },
-  theme: {
-    type: String,
-    enum: ["light", "dark"],
-    default: "dark",
-  },
-
-  language: {
-    type: String,
-    enum: ["en", "jp"],
-    default: "en",
-  },
-
-  playlists: {
-    type: [playlist],
-    default: [
-      {
-        title: "Default",
-        id: "0",
+    email: {
+      type: String,
+      required: [true, "Please provide email"],
+      validate: {
+        validator: validator.isEmail,
+        message: "Please provide a valid email",
       },
-    ],
+      unique: true,
+    },
+    isDemo: {
+      type: Boolean,
+      default: false,
+    },
+    password: {
+      type: String,
+      required: [true, "Please provide password"],
+      minlength: 6,
+      select: false,
+    },
+    theme: {
+      type: String,
+      enum: ["light", "dark"],
+      default: "dark",
+    },
+
+    language: {
+      type: String,
+      enum: ["en", "jp"],
+      default: "en",
+    },
+
+    playlists: {
+      type: [playlist],
+      default: [
+        {
+          title: "Default",
+          id: "0",
+        },
+      ],
+    },
   },
-  created_at: {
-    type: Date,
-    default: Date.now,
-  },
-});
+  { timestamps: true }
+);
 
 UserSchema.pre("save", async function () {
   // hash the password
